@@ -204,7 +204,7 @@
 				} else {
 					$('.meter > span').css('width',parseInt(progress)+'%');
 				}
-				var url = 'http://beardevtech.com/FileStore/uploadfile.php';
+				var url = 'FileStore/uploadfile.php';
 				var dataInput = {'base64String':stringBase64ForUpload};
 				if(progress==0){
 					dataInput.append = "start";
